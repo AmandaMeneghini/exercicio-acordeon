@@ -70,9 +70,6 @@ html{
     position: absolute;
 }
 
-.setas.mostrar .seta-fechada{
-    opacity: 0;
-}
 
 
 .item.acordeon .conteudo{
@@ -82,7 +79,11 @@ html{
     font-weight: 300;
 }
 
-.item.acordeon .conteudo.mostrar{
+.item.acordeon.mostrar .setas .seta-fechada{
+    opacity: 0;
+}
+
+.item.acordeon.mostrar .conteudo{
     position: static;
     opacity: 1;
 }
