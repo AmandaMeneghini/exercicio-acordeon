@@ -38,18 +38,30 @@ html{
 }
 
 .conteudo-acordeons .item.acordeon{
-    width: 390px;
     position: relative;
+    padding: 15px 0;
+    width: 390px;
+    border-bottom: 1px solid #D4D4D4;
+}
+
+.conteudo-acordeons .item.acordeon:nth-last-child(1){
+    border-bottom: none;
 }
 
 .item.acordeon .botao{
     display: flex;
     width: 100%;
-    height: 35px;
+    height: 100%;
     justify-content: space-between;
     align-items: center;
-    background: transparent;
+    background: #FCFCFC;
     position: relative;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.item.acordeon.mostrar .botao{
+    margin-bottom: 10px;
 }
 
 .botao .titulo-acordeon{
@@ -61,29 +73,34 @@ html{
     display: flex;
     align-items: center;
     position: absolute;
-    right: 0;
+    right: 13px;
 }
 
 .setas .seta-aberta,
 .setas .seta-fechada{
     right: 0;
     position: absolute;
-}
-
-
-
-.item.acordeon .conteudo{
-    opacity: 0;
-    position: absolute;
-    font-size: 1.5rem;
-    font-weight: 300;
+    transition: 0.5s ease-in-out;
 }
 
 .item.acordeon.mostrar .setas .seta-fechada{
     opacity: 0;
 }
 
+
+.item.acordeon .conteudo{
+    opacity: 0;
+    display: none;
+    position: absolute;
+    font-size: 1.5rem;
+    font-weight: 300;
+    transition: 0.3s;
+}
+
+
+
 .item.acordeon.mostrar .conteudo{
     position: static;
     opacity: 1;
+    display: block;
 }
