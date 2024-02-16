@@ -7,10 +7,11 @@ itemAcordeon.forEach(itemAcordeon => {
         const acordeonEstaAberto = document.querySelector(".mostrar");
 
         if(acordeonEstaAberto){
-            itemAcordeon.classList.remove("mostrar");
-        }else{
-            itemAcordeon.classList.add("mostrar");
+            acordeonEstaAberto.classList.remove("mostrar");
         }
+        
+        itemAcordeon.classList.add("mostrar");
+
     });
 });
 
