@@ -1,0 +1,59 @@
+@media(max-width: 900px){
+    .conteudo-principal .container{
+        max-width: 500px;
+
+    }
+
+    .container .imagem{
+        transform: translateY(-225px);
+        width: 220px;
+    }
+
+    .container .conteudo-acordeons{
+        left: 70px;
+    }
+
+}
+
+@media (max-width: 555px){
+    
+    .conteudo-principal .container{
+        width: 300px;
+      
+        padding: 10px;
+    }
+
+    .container .imagem{
+        transform: translateY(-190px);
+        width: 150px;
+    }
+
+    .container .conteudo-acordeons{
+        left: 0;
+    }
+    
+    .conteudo-acordeons .titulo{
+        text-align: center;
+        font-size: 2rem;
+        margin-left: 30px;
+        
+    }
+    
+    .container .conteudo-acordeons .item.acordeon{
+        left: 20px;
+        width: 260px;
+        padding: 10px 0;
+    }
+
+
+    .botao .titulo-acordeon{
+        width: 90%;
+        font-size: 1.4rem;
+        text-align: left;
+    }
+
+    .item.acordeon .conteudo{
+        text-align: justify;
+        font-size: 1.2rem;
+    }
+}
