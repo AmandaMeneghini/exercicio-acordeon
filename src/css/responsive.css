@@ -19,7 +19,7 @@
     
     .conteudo-principal .container{
         width: 300px;
-      
+        min-height: 280px;
         padding: 10px;
     }
 
