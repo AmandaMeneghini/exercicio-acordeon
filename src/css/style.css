@@ -68,6 +68,10 @@ html{
     font-weight: 500;
 }
 
+.botao .titulo-acordeon:hover{
+    color: #f14624;
+}
+
 .botao .setas{
     display: flex;
     align-items: center;
