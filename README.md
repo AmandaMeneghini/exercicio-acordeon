@@ -7,6 +7,10 @@ Me aprofundando na lógica de programação com JS, esse exercício tinha como f
 
 link do [Deploy](https://amandameneghini.github.io/exercicio-acordeon/) 💻
 
+### Responsivo
+
+<img src="./src/images/readme/acordeon with JS (outher screens sizes).gif">
+
 ### Tecnologias Utilizadas ✔
 
 <div style="display: flex;">
@@ -15,6 +19,12 @@ link do [Deploy](https://amandameneghini.github.io/exercicio-acordeon/) 💻
     <img src="./src/images/readme/logo-css-3-2048.png" style="width: 50px;">
     <img src="./src/images/readme/javascript_icon_130900.png" style="width: 50px">
 </div>
+
+### Ferramenta usada para fazer responsividade
+
+<img src="./src/images/readme/responsive viewer.png">
+
+Extensão **"Responsive Viewer"**
 
 ## Como utiliza 🤔
 
